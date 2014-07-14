@@ -152,10 +152,10 @@ public class graph_creatorV14_final {
 	//create the graph
 	static DirectedSparseGraph<String, String> graph;
 	//load the files
-	static String file1="C:/Users/alex/Desktop/simasiologikos_istos/ontologies/leo.owl";
-	static String file2="C:/Users/alex/Desktop/simasiologikos_istos/ontologies/camera.owl";
-	static String file3="C:/Users/alex/Desktop/simasiologikos_istos/ontologies/koala.owl";
-	static String file4="C:/Users/alex/Desktop/simasiologikos_istos/ontologies/ka.owl";
+	static String file1="C:/Users/alexandros/Desktop/simasiologikos_istos/ontologies/leo.owl";
+	static String file2="C:/Users/alexandros/Desktop/simasiologikos_istos/ontologies/camera.owl";
+	static String file3="C:/Users/alexandros/Desktop/simasiologikos_istos/ontologies/koala.owl";
+	static String file4="C:/Users/alexandros/Desktop/simasiologikos_istos/ontologies/ka.owl";
 	// creation of the tabbed panel
 	static VisualizationViewer<String, String> vv;
 	JTabbedPane tabbedPane = new JTabbedPane();
