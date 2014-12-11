@@ -152,10 +152,10 @@ public class graph_creatorV14_final {
 	//create the graph
 	static DirectedSparseGraph<String, String> graph;
 	//load the files
-	static String file1="C:/Users/alexandros/Desktop/simasiologikos_istos/ontologies/leo.owl";
-	static String file2="C:/Users/alexandros/Desktop/simasiologikos_istos/ontologies/camera.owl";
-	static String file3="C:/Users/alexandros/Desktop/simasiologikos_istos/ontologies/koala.owl";
-	static String file4="C:/Users/alexandros/Desktop/simasiologikos_istos/ontologies/ka.owl";
+	static String file1="C:/Users/alexandros/Desktop/simasiologikos_istos/ontologies/ka.owl";
+	static String file2="C:/Users/alexandros/Desktop/simasiologikos_istos/ontologies/koala.owl";
+	static String file3="C:/Users/alexandros/Desktop/simasiologikos_istos/ontologies/leo.owl";
+	static String file4="C:/Users/alexandros/Desktop/simasiologikos_istos/ontologies/camera.owl";
 	// creation of the tabbed panel
 	static VisualizationViewer<String, String> vv;
 	JTabbedPane tabbedPane = new JTabbedPane();
@@ -1092,8 +1092,8 @@ public class graph_creatorV14_final {
 					i=0;
 					flag=0;
 
-
-					File fXmlFile = new File("C:/Users/alex/Desktop/unit1.cowl");
+					
+					File fXmlFile = new File("C:/Users/alexandros/Desktop/unit1.cowl");
 					DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 					DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
 					Document doc = dBuilder.parse(fXmlFile);
